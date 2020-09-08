@@ -1,0 +1,90 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "Polymer": true,
+    "webkitSpeechRecognition": false,
+    "ResizeObserver": false
+  },
+  "extends": [
+      "airbnb-typescript/base",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:wc/recommended",
+      "plugin:lit/recommended",
+      "prettier",
+      "prettier/@typescript-eslint",
+      "plugin:prettier/recommended"  // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["disable", "import", "lit", "prettier", "@typescript-eslint","sort-class-members"],
+  "processor": "disable/disable",
+  "rules": {
+      "@typescript-eslint/ban-ts-ignore": 0,
+      "@typescript-eslint/camelcase": 0,
+      "@typescript-eslint/explicit-function-return-type": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-non-null-assertion": 0,
+      "@typescript-eslint/no-unused-vars": 0,
+      "@typescript-eslint/no-use-before-define": 0,
+      "class-methods-use-this": 0,
+      "comma-dangle": 0,
+      "default-case": 0,
+      "func-names": 0,
+      "import/extensions": [
+        2,
+        "ignorePackages",
+        { "ts": "never", "js": "never" }
+      ],
+      "import/no-cycle": 0,
+      "import/no-unresolved": 0,
+      "import/order": 0,
+      "import/prefer-default-export": 0,
+      "new-cap": 0,
+      "no-alert": 0,
+      "no-bitwise": 2,
+      "no-console": 2,
+      "no-continue": 0,
+      "no-multi-assign": 0,
+      "no-nested-ternary": 0,
+      "no-param-reassign": 0,
+      "no-plusplus": 0,
+      "no-restricted-globals": [2, "event"],
+      "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+      "no-return-await": 0,
+      "no-underscore-dangle": 0,
+      "object-curly-newline": 0,
+      "object-shorthand": 0,
+      "prefer-arrow-callback": 0,
+      "prefer-destructuring": 0,
+      "prefer-promise-reject-errors": 0,
+      "prefer-spread": 0,
+      "prefer-template": 0,
+      "radix": 0,
+      "sort-class-members/sort-class-members": [2, {
+        "order": [
+          "[properties-sort]",
+          "[constructor]",
+          "[methods-sort]"
+        ],
+        "groups": {
+          "properties-sort": [{ "type": "property", "sort": "alphabetical" }],
+          "methods-sort": [{ "type": "method", "sort": "alphabetical" }]
+        },
+        "accessorPairPositioning": "getThenSet",
+        "stopAfterFirstProblem": false
+      }],
+      "strict": 0,
+      "vars-on-top": 0,
+      "wc/no-self-class": 0
+    }
+}

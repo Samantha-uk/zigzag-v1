@@ -1,0 +1,22 @@
+[0m[0m
+[0m[4m/home/samantha/github/zigzag/src/data/datasource.ts[24m[0m
+[0m  [2m6:6[22m  [31merror[39m  'DataSourceType' is already declared in the upper scope  [2mno-shadow[22m[0m
+[0m[0m
+[0m[4m/home/samantha/github/zigzag/src/graphing/grapher.ts[24m[0m
+[0m  [2m7:13[22m  [31merror[39m  'GrapherType' is already declared in the upper scope  [2mno-shadow[22m[0m
+[0m[0m
+[0m[4m/home/samantha/github/zigzag/src/ha/hasnippets.ts[24m[0m
+[0m  [2m73:3[22m  [31merror[39m  Do not use "// @ts-ignore" because it alters compilation errors  [2m@typescript-eslint/ban-ts-comment[22m[0m
+[0m  [2m75:5[22m  [31merror[39m  Do not use "// @ts-ignore" because it alters compilation errors  [2m@typescript-eslint/ban-ts-comment[22m[0m
+[0m[0m
+[0m[4m/home/samantha/github/zigzag/src/localize/localize.ts[24m[0m
+[0m  [2m19:69[22m  [31merror[39m  ["en"] is better written in dot notation  [2mdot-notation[22m[0m
+[0m  [2m23:69[22m  [31merror[39m  ["en"] is better written in dot notation  [2mdot-notation[22m[0m
+[0m[0m
+[0m[4m/home/samantha/github/zigzag/src/model/Zig.ts[24m[0m
+[0m  [2m1:13[22m  [31merror[39m  'ZigRole' is already declared in the upper scope   [2mno-shadow[22m[0m
+[0m  [2m8:13[22m  [31merror[39m  'zigPower' is already declared in the upper scope  [2mno-shadow[22m[0m
+[0m[0m
+[0m[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[31m[1m  2 errors and 0 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
