@@ -1,3 +1,8 @@
+# Zigzag v0.2.0 will be arriving soon
+So I have archived this repo.
+
+*Edited: 5-Dec-2020*
+
 # Zigzag v0.1.0 (Alpha Release)
 
 Zigzag is a custom card/panel for [Home Assistant](https://www.home-assistant.io/)  that displays a graphical layout of Zigbee devices and the connections between them.
