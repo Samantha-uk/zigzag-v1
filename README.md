@@ -1,7 +1,9 @@
-# Zigzag v0.2.0 will be arriving soon
-So I have archived this repo.
+# Zigzag v0.2.0 is available
+It can be found in the [one repo](https://github.com/Samantha-uk/one/tree/main/home-assistant/zigzag-panel)
 
-*Edited: 5-Dec-2020*
+
+Zigzag-v1 is archived and will receive no updates or support.
+*Edited: 3-Jan-2021*
 
 # Zigzag v0.1.0 (Alpha Release)
 
