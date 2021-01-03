@@ -3,6 +3,7 @@ It can be found in the [one repo](https://github.com/Samantha-uk/one/tree/main/h
 
 
 Zigzag-v1 is archived and will receive no updates or support.
+
 *Edited: 3-Jan-2021*
 
 # Zigzag v0.1.0 (Alpha Release)
